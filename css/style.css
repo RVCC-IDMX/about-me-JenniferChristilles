@@ -1,0 +1,41 @@
+body {
+    font-family:Oswald;
+    background-color: #4bbf7d;
+    color: #f2b05e;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:Lobster;
+    font-size: 50pt;
+    background-color: #373259;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #d93b75;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    background-color: #373259;
+    padding: 10px;
+    text-align: center;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #d93b75;
+    font-size: 20px;
+}
+
+#hero img {
+    width: 250px;
+}
+
+#bio {
+    text-align: center;
+    background-color: #373259;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #d93b75;
+    font-size: 25px;
+}
