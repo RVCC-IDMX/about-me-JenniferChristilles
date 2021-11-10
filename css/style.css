@@ -43,6 +43,7 @@ header {
 }
 
 /* Bio Section */
+
 #bio {
     text-align: center;
     background-color: #373259;
@@ -101,6 +102,8 @@ header {
     margin: 0 auto;
 }
 
+/* Tablet size */
+
 @media screen and (min-width: 60em){
 
     figure{
@@ -114,6 +117,12 @@ header {
         align-items: center;
         font-size: 25px;
         margin-left: 1rem;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+        padding: 10px;
     }
 
 }
