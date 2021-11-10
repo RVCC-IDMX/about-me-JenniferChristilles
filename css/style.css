@@ -100,3 +100,20 @@ header {
     max-width: 40rem;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 60em){
+
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        margin-left: 1rem;
+    }
+
+}
