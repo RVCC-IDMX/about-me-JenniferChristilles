@@ -119,10 +119,36 @@ header {
         margin-left: 1rem;
     }
 
+    figure img {
+        width: 100%;
+    }
+
     #lit div {
         max-width: 100%;
         columns: 20rem;
         padding: 10px;
     }
 
+}
+
+/* Large screen size */
+
+@media screen and (min-width: 100em) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
 }
