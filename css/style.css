@@ -4,13 +4,22 @@ body {
     color: #f2b05e;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h3, h4, h5, h6{
     font-family:Lobster;
+    text-align: center;
     font-size: 50pt;
     background-color: #373259;
     border-style: dashed;
     border-width: 5px;
     border-color: #d93b75;
+}
+
+h2 {
+    font-family: Lobster;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    background-color: #373259;
 }
 
 header {
@@ -38,4 +47,20 @@ header {
     border-width: 3px;
     border-color: #d93b75;
     font-size: 25px;
+}
+
+#hobbies ul li {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 25px;
+}
+ 
+#hobbies {
+    background-color: #373259;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #d93b75;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
