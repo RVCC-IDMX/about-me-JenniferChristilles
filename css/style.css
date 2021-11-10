@@ -85,3 +85,18 @@ header {
     text-align: center;
     font-size: 22px;
 }
+
+/* The Picture of Dorian Gray */
+
+#lit {
+    border: 3px dashed #d93b75;
+    background-color: #373259;
+}
+
+#lit p {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 10px;
+    max-width: 40rem;
+    margin: 0 auto;
+}
