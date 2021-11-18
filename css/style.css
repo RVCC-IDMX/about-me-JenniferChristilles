@@ -102,6 +102,29 @@ header {
     margin: 0 auto;
 }
 
+/*My about me cat rescue video*/
+
+#video {
+    border: 3px dashed #d93b75;
+    background-color: #373259;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#video p{
+    font-size: 25px;
+}
+
+/* Phone size*/
+
+@media screen and (min-width: 1em){
+
+    iframe {
+        width: 75%;
+    }
+    
+}
+
 /* Tablet size */
 
 @media screen and (min-width: 60em){
