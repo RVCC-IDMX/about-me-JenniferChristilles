@@ -115,9 +115,6 @@ header {
     font-size: 25px;
 }
 
-#formElements {
-    display: grid;
-}
 
 /* Phone size*/
 
@@ -184,4 +181,45 @@ header {
 
 #formElements {
     display: grid;
+    row-gap: .5em;
+}
+
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 3px dashed #d93b75;
+    background-color: #373259;
+}
+
+fieldset{
+    border: 3px dashed #d93b75;
+}
+
+legend{
+    background-color: #d93b75;
+    color: #f2b05e;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact button{
+    background-color: #d93b75;
+    color: #f2b05e;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
+
+#contact ul{
+    list-style:none;
+    padding: 0px;
+}
+
+#contact li{
+    margin:1rem;
 }
