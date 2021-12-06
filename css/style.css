@@ -115,6 +115,10 @@ header {
     font-size: 25px;
 }
 
+#formElements {
+    display: grid;
+}
+
 /* Phone size*/
 
 @media screen and (min-width: 1em){
@@ -174,4 +178,10 @@ header {
     figure {
         display: block;
     }
+}
+
+/* Contact Form */
+
+#formElements {
+    display: grid;
 }
