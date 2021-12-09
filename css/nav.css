@@ -45,8 +45,6 @@ main {
 }
 
 .logo h1{
-    height: 5vw;
-    width: 5vw;
     font-size: 3em;
 }
 
@@ -65,12 +63,19 @@ main {
 
 .navbar-links a {
     color: #f2b05e;
-    background-attachment: #444;
+    background-color: #373259;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover, .navbar-links a:focus {
+    color: #373259;
+    background-color: #f2b05e;
+    border-radius: 8px;
+    outline: none;
 }
 
 
