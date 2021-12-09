@@ -24,7 +24,7 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: #373259;
+    background-color: #444;
     color: #f2b05e;
     display: flex;
     flex-direction: column;
@@ -40,27 +40,38 @@ main {
 }
 
 .logo img {
-    height: 3vw;
-    width: 3vw;
+    height: 7vw;
+    width: 7vw;
 }
 
 .logo h1{
-    height: 3vw;
-    width: 3vw;
+    height: 5vw;
+    width: 5vw;
     font-size: 3em;
 }
 
-
-
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
-
+.navbar-links a {
+    color: #f2b05e;
+    background-attachment: #444;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 
