@@ -30,6 +30,7 @@ main {
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 /* logo */
