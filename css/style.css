@@ -4,7 +4,7 @@ body {
     color: #f2b05e;
 }
 
-h1, h3, h4, h5, h6{
+h3, h4, h5, h6{
     font-family:Lobster;
     text-align: center;
     font-size: 50pt;
@@ -12,6 +12,19 @@ h1, h3, h4, h5, h6{
     border-style: dashed;
     border-width: 5px;
     border-color: #d93b75;
+}
+
+h1{
+    padding: 5px;
+    min-width: 300px;
+    font-family:Lobster;
+    text-align: center;
+    font-size: 40pt;
+    background-color: #373259;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #d93b75;
+    border-radius: 10pt;
 }
 
 h2 {

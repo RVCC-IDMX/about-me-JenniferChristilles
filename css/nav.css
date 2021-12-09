@@ -34,6 +34,22 @@ main {
 
 /* logo */
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 3vw;
+    width: 3vw;
+}
+
+.logo h1{
+    height: 3vw;
+    width: 3vw;
+    font-size: 3em;
+}
+
 
 
 /* navigation list */
