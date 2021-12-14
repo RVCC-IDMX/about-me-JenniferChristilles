@@ -24,10 +24,11 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: #444;
+    background-color: #373259;
     color: #f2b05e;
     display: flex;
     flex-direction: column;
+    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -41,12 +42,12 @@ main {
 }
 
 .logo img {
-    height: 7vw;
-    width: 7vw;
+    height: 6vw;
+    width: 6vw;
 }
 
 .logo h1{
-    font-size: 3em;
+    font-size: 1.2em;
 }
 
 /* navigation list */
@@ -70,6 +71,7 @@ main {
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 
 .navbar-links a:hover, .navbar-links a:focus {
@@ -79,10 +81,27 @@ main {
     outline: none;
 }
 
-
-
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+
+    /*.navbar-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }*/
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
